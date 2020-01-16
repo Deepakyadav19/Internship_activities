@@ -1,0 +1,26 @@
+
+input[type=checkbox] + label{
+  display: block;
+  margin: 0.2em;
+}
+
+input[type=checkbox]{
+  display: none;
+}
+
+input[type=checkbox] + label.before{
+  content: "\2714";
+  border: 0.1em solid royalblue;
+  display: inline-block;
+  padding-left: 0.1em;
+  padding-bottom: 0.3em;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.2em;
+  color: transparent;
+}
+
+input[type=checkbox]:checked + label:before{
+  background-color: teal;
+  color: white;
+}

@@ -1,0 +1,9 @@
+.list-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+body{
+    margin: 25%!important;
+}
